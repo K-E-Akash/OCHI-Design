@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import 'C:/Users/User/Desktop/Projects/OchiDesign/src/App.css'
+import '../App.css'
 import { MdArrowOutward } from "react-icons/md";
 
 
