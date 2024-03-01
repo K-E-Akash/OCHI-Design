@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scrollbar-width: none;
+}
+
+.hoverObj1 {
+    transition: all ease-in-out 0.2s;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 50%, rgb(38, 38, 39) 50%);
+    background-size: 100% 200%;
+    transition: background-position 0.2s ease;
+}
+
+.hoverObj1:hover {
+    background-position: 0 100%;
+}
+
+.arrowObj,
+.secRight {
+    transition: all 0.3s ease;
+}
+
+.hoverObj1:hover .arrowObj {
+    scale: 4;
+}
+
+.arrowObj {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowIcon {
+    scale: 0;
+}
+
+.hoverObj1:hover .arrowIcon {
+    scale: 0.5;
+    color: black;
+    z-index: 10;
+    padding: 1px 0 0 1px;
+}
+
+#hoverCont {
+    margin-top: 2vw;
+    width: max-content;
+    transition: all ease-in-out 1.2s;
+    overflow: hidden;
+
+}
+
+#hoverImg {
+    transition: all ease-in-out 1.2s;
+    scale: 1.05;
+}
+
+.hovered {
+    scale: 0.95;
+}
+
+.hoveredImg {
+    transform: scale(1.1);
+}
+
+.footerMinus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footerMinusBtn p {
+    color: black;
+}
+
+#footerMinusBtn div {
+    background-color: black;
+    transition: all ease 0.3s;
+}
+
+#footerMinusBtn {
+    background-color: #CDEA68 !important;
+    border: black 1.5px solid;
+    transition: all ease-in-out 0.2s;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 50%, #CDEA68 50%);
+    background-size: 100% 200%;
+    transition: background-position 0.2s ease;
+}
+
+#footerMinusBtn:hover {
+    background-position: 0 100%;
+}
+
+#footerMinusBtn:hover p {
+    color: rgb(223, 220, 220);
+}
+
+#footerMinusBtn:hover div {
+    scale: 4;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerMinusBtn:hover .arrowIcon {
+    scale: 0.5;
+    color: black;
+    z-index: 10;
+    padding: 1px 0 0 1px;
+}
+
+.footerLinkWrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+}
+
+.footerLinkWrap p {
+    padding-bottom: 1.5vw;
+}
