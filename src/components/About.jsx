@@ -48,7 +48,7 @@ const About = () => {
 
                     <div className="secRight w-1/2 -mt-8 max-w-full ">
                         <div className={`rounded-[.8vw] ${isHovered ? 'hovered' : ''}`} id='hoverCont'>
-                            <img id='hoverImg' className={`rounded-[.8vw] ${isHovered ? 'hoveredImg' : ''}`} src="src\public\images\secRight-sec3.jpg" />
+                            <img id='hoverImg' className={`rounded-[.8vw] ${isHovered ? 'hoveredImg' : ''}`} src="images/secRight-sec3.jpg" />
                         </div>
                     </div>
                 </div>

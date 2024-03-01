@@ -19,7 +19,7 @@ const CardScr = () => {
 					<div className="cardBtn border-[2px] w-fit rounded-3xl p-1 px-3 bottom-6 left-6 absolute uppercase border-zinc-400">rating 5.0 on clutch</div>
 				</div>
 				<div className="w-1/4 bg-[#212121] h-[60vh] m-[0.6vw] rounded-lg relative">
-					<img src="src/public/images/cardLogo.png" alt="" className='w-28 h-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
+					<img src="images/cardLogo.png" alt="" className='w-28 h-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
 					<div className="cardBtn border-[2px] w-fit rounded-3xl p-1 px-3 bottom-6 left-6 absolute uppercase border-zinc-400">business bootcamp alumni</div>
 				</div>
 			</div>

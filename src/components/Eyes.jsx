@@ -18,7 +18,7 @@ const Eyes = () => {
 
     return (
         <div  className='w-full min-h-screen relative'>
-            <img className='w-full h-full' src="src/public/images/Top-View.jpg" alt="" />
+            <img className='w-full h-full' src="images/Top-View.jpg" alt="" />
             <div className='absolute flex gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-index-[20]'>
                 <div className='w-[15vw] h-[15vw] bg-[#F6F6F6] flex items-center justify-center rounded-full'>
                     <div className='w-[10vw] h-[10vw] bg-zinc-800 rounded-full relative'>

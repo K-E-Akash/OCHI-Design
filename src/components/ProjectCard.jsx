@@ -9,7 +9,7 @@ const ProjectCard = () => {
                     <div className='projectName'>FYDE</div>
                 </div>
                 <div className="cardBody w-[45vw] h-[80vh] bg-slate-600 rounded-2xl overflow-hidden hover:scale-95 transition ease-in duration-[0.5s]">
-                    <img className="cardImg w-full h-full hover:scale-110 transition ease-in duration-[0.5s]" src="src\public\images\Fyde.png" alt="" />
+                    <img className="cardImg w-full h-full hover:scale-110 transition ease-in duration-[0.5s]" src="images/Fyde.png" alt="" />
                 </div>
                 <div className='servicesBtnCont mb-10'>
                     {[].map((e, i) => (

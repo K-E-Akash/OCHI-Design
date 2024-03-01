@@ -15,7 +15,7 @@ const LandingPage = () => {
                             animate={{ width: '8.5vw' }}
                             transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
                             className='bg-green-200 overflow-hidden w-[8.5vw] h-[11.5vh] mr-4 rounded' key={index}>
-                            <img className='w-full h-full' src="./Images/bg.jpg" alt="" /></motion.div>)}
+                            <img className='w-full h-full' src="images/bg.jpg" alt="" /></motion.div>)}
                         </div>
                         <h1 key={index} className={`uppercase text-9xl font-['Test_Founders_Grotesk_X_Condensed'] leading-[0.78]`}>{item}</h1>
                     </div>
